@@ -1,0 +1,20 @@
+{
+  "name": "validation-middleware",
+  "version": "1.0.0",
+  "description": "\"Validation middleware for IAM server\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "keywords": [
+    "\"Validation",
+    "middleware\""
+  ],
+  "author": "Manisha S. Jadhav",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
